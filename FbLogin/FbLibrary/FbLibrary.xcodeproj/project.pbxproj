@@ -1,0 +1,273 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F21330881C60F98D00EBA93B /* FbLibrary.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F21330871C60F98D00EBA93B /* FbLibrary.h */; };
+		F213308A1C60F98D00EBA93B /* FbLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = F21330891C60F98D00EBA93B /* FbLibrary.m */; };
+		F21330931C60F99B00EBA93B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21330901C60F99B00EBA93B /* FBSDKCoreKit.framework */; };
+		F21330941C60F99B00EBA93B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21330911C60F99B00EBA93B /* FBSDKLoginKit.framework */; };
+		F21330951C60F99B00EBA93B /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F21330921C60F99B00EBA93B /* FBSDKShareKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F21330821C60F98D00EBA93B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				F21330881C60F98D00EBA93B /* FbLibrary.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F21330841C60F98D00EBA93B /* libFbLibrary.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libFbLibrary.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		F21330871C60F98D00EBA93B /* FbLibrary.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FbLibrary.h; sourceTree = "<group>"; };
+		F21330891C60F98D00EBA93B /* FbLibrary.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FbLibrary.m; sourceTree = "<group>"; };
+		F21330901C60F99B00EBA93B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		F21330911C60F99B00EBA93B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		F21330921C60F99B00EBA93B /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F21330811C60F98D00EBA93B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F21330941C60F99B00EBA93B /* FBSDKLoginKit.framework in Frameworks */,
+				F21330931C60F99B00EBA93B /* FBSDKCoreKit.framework in Frameworks */,
+				F21330951C60F99B00EBA93B /* FBSDKShareKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F213307B1C60F98D00EBA93B = {
+			isa = PBXGroup;
+			children = (
+				F21330861C60F98D00EBA93B /* FbLibrary */,
+				F21330851C60F98D00EBA93B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F21330851C60F98D00EBA93B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F21330841C60F98D00EBA93B /* libFbLibrary.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F21330861C60F98D00EBA93B /* FbLibrary */ = {
+			isa = PBXGroup;
+			children = (
+				F21330901C60F99B00EBA93B /* FBSDKCoreKit.framework */,
+				F21330911C60F99B00EBA93B /* FBSDKLoginKit.framework */,
+				F21330921C60F99B00EBA93B /* FBSDKShareKit.framework */,
+				F21330871C60F98D00EBA93B /* FbLibrary.h */,
+				F21330891C60F98D00EBA93B /* FbLibrary.m */,
+			);
+			path = FbLibrary;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F21330831C60F98D00EBA93B /* FbLibrary */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F213308D1C60F98D00EBA93B /* Build configuration list for PBXNativeTarget "FbLibrary" */;
+			buildPhases = (
+				F21330801C60F98D00EBA93B /* Sources */,
+				F21330811C60F98D00EBA93B /* Frameworks */,
+				F21330821C60F98D00EBA93B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FbLibrary;
+			productName = FbLibrary;
+			productReference = F21330841C60F98D00EBA93B /* libFbLibrary.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F213307C1C60F98D00EBA93B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = lee;
+				TargetAttributes = {
+					F21330831C60F98D00EBA93B = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = F213307F1C60F98D00EBA93B /* Build configuration list for PBXProject "FbLibrary" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F213307B1C60F98D00EBA93B;
+			productRefGroup = F21330851C60F98D00EBA93B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F21330831C60F98D00EBA93B /* FbLibrary */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F21330801C60F98D00EBA93B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F213308A1C60F98D00EBA93B /* FbLibrary.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F213308B1C60F98D00EBA93B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F213308C1C60F98D00EBA93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F213308E1C60F98D00EBA93B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FbLibrary",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F213308F1C60F98D00EBA93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/FbLibrary",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F213307F1C60F98D00EBA93B /* Build configuration list for PBXProject "FbLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F213308B1C60F98D00EBA93B /* Debug */,
+				F213308C1C60F98D00EBA93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F213308D1C60F98D00EBA93B /* Build configuration list for PBXNativeTarget "FbLibrary" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F213308E1C60F98D00EBA93B /* Debug */,
+				F213308F1C60F98D00EBA93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F213307C1C60F98D00EBA93B /* Project object */;
+}
